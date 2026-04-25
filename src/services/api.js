@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:3001/api',
+  baseURL: 'https://proyecto-semillero-back.vercel.app/api',
 });
 
 // Request Interceptor: Agrega el JWT a cada petición si existe
