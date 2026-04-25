@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# build output
+dist/
+build/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# Editor
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Debug artifacts
+*.tmp
+build_*.txt
+build_*.log
+lint_output.txt
